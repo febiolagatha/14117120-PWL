@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="/assets/css/febiola.css">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+
+<body class="malam">
+	<nav>
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/profile">Profile</a>
+		</li>
+		<li>
+			<a href="/gallery">Gallery</a>
+		</li>
+		<li>
+			<button id="tombol">
+				Berubah ke mode malam
+			</button>
+		</li>
+	</ul>
+</nav>
+
+	<section>
+		
+<h3>Nama Saya</h3>
+<h1>Febiola Agatha</h1>
+
+	</section>
+
+	<script type="text/javascript">
+		switcher = document.getElementById("tombol");
+		switcher.onclick = function(){
+		ola = document.getElementsByTagName("body")[0];
+		if (switcher.innerText == "Berubah ke mode siang"){
+			switcher.innerText = "Berubah ke mode malam";
+			ola.classList.remove("malam");
+		} else {
+			switcher.innerText = "Berubah ke mode siang";
+			ola.classList.add("malam");
+		}
+	}
+	</script>
+</body>
+</html>

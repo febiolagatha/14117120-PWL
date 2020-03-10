@@ -11,17 +11,15 @@
 	</section>
 
 	<script type="text/javascript">
-		switcher = document.getElementById("tombol");
-		switcher.onclick = function(){
-		ola = document.getElementsByTagName("body")[0];
-		if (switcher.innerText == "Berubah ke mode siang"){
-			switcher.innerText = "Berubah ke mode malam";
-			ola.classList.remove("malam");
-		} else {
-			switcher.innerText = "Berubah ke mode siang";
-			ola.classList.add("malam");
+		window.onload = waktu();
+		function waktu() {
+		var time = new Date().getHours();
+
+		if(time>18)	{
+			var element = document.body;
+			element.classList.toggle("Dark-Mode");
 		}
-	}
+		}
 	</script>
 </body>
 </html>

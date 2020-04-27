@@ -1,0 +1,55 @@
+{
+ "main": [
+    {
+      "title": "Just Arrived",
+      "url": "https://www.blissworld.com/",
+      "content": [
+        {
+          "title": "Rose Gold Rescue Peel",
+          "url": "https://www.blissworld.com/rose-gold-rescue-resurfacing-face-peel/",
+          "Price": 25.00,
+          "Skin Type": "Sensitive",
+          "Description": "8% PHA + AHA Blend Gentle Resurfacing Peel For Sensitive Skin",
+        },{
+          "title": "Bright Idea Moisturizer",
+          "url": "https://www.blissworld.com/bright-idea-vitamin-c-face-moisturizer/",
+          "Price": 24.00,
+          "Skin Type": "All skin types",
+          "Description": "Vitamin C + Tri-Peptide Collagen Protecting & Brightening Moisturizer",
+          },{
+          "title": "Bright Idea Serum",
+          "url": "https://www.blissworld.com/bright-idea-vitamin-c-face-serum/",
+          "Price": 27.00,
+          "Skin Type": "All skin types",
+          "Description": "Vitamin C + Tri-Peptide Collagen Protecting & Brightening Serum",
+          }
+      ]
+    },
+    
+    {
+     "title": "BestSellers",
+     "url": "https://www.blissworld.com/",
+     "content": [
+       {
+          "title": "Drench & Quench",
+          "url": "https://www.blissworld.com/drench-quench-hydrating-face-moisturizer/",
+          "Price": 8.00,
+          "Skin Type": "All Skin Types, including Sensitive",
+          "Description": "Cream-to-water Hydrator for All Skin Types"
+       },{
+          "title": "That's Incredi-peel",
+          "url": "https://www.blissworld.com/thats-incredi-peel-glycolic-acid-pads/",
+          "Price": 10.00,
+          "Skin Type": "All Skin Types",
+          "Description": "Spa-strength Glycolic Resurfacing Pads to Smooth & Brighten"
+       },{
+       "title": "Fab Foaming",
+       "url": "https://www.blissworld.com/fab-foaming-facial-cleanser-exfoliator/",
+       "Price": 12.00,
+       "Skin Type": "All Skin Types, Except for Sensitive",
+       "Description": "2-in-1 Cleanser & Exfoliator With Bamboo Buffers"
+       }
+     ]
+    }
+ ]
+}
